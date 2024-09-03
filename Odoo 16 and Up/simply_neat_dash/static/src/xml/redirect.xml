@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<template>
+    <t t-name="simply_neat_dash.Redirect">
+        <div style="height: calc(100% - 5px)" id="sn-redirect-root">
+        </div>
+    </t>
+</template>

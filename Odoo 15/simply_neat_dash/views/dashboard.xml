@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_sn_dashboard_base" model="ir.actions.client">
+        <field name="name">Dashboard</field>
+        <field name="tag">sn_dashboard_base</field>
+        <field name="target">main</field>
+    </record>
+
+    <menuitem
+            id="sn_charts_root"
+            name="SN Reports"
+            web_icon="simply_neat_dash,static/description/icon.png"
+            sequence="10"
+    />
+    <menuitem
+            id="sn_dashboard" name="Reports"
+            parent="sn_charts_root"
+            sequence="10"
+            action="action_sn_dashboard_base"
+    />
+    <!-- Define a new action for the web page -->
+    <record id="action_open_docs" model="ir.actions.act_url">
+        <field name="name">Documentation</field>
+        <field name="url">https://www.simply-neat.com/sn-reports-docs</field>
+        <field name="target">new</field>
+    </record>
+
+    <!-- Create a new menu item that points to the action -->
+    <menuitem
+            id="menu_item_open_docs"
+            name="Documentation"
+            parent="sn_charts_root"
+            sequence="20"
+            action="action_open_docs"
+    />
+    <!-- Define a new action for the web page -->
+    <record id="action_open_feedback" model="ir.actions.act_url">
+        <field name="name">Feedback</field>
+        <field name="url">https://www.simply-neat.com/sn-reports-feedback</field>
+        <field name="target">new</field>
+    </record>
+
+    <!-- Create a new menu item that points to the action -->
+    <menuitem
+            id="menu_item_open_feedback"
+            name="Feedback"
+            parent="sn_charts_root"
+            sequence="20"
+            action="action_open_feedback"
+    />
+</odoo>

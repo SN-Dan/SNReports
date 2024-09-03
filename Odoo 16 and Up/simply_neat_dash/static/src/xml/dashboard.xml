@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<template>
+    <t t-name="simply_neat_dash.Dashboard">
+        <div style="height: calc(100% - 5px)" id="sn-dashboard-root">
+            <div style="display: grid; margin: auto; height: calc(100vh - 50px); text-align: center; align-content: center;">
+                <h3>Loading Simply NEAT Reports...</h3>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://dw0v6gfluwf8p.cloudfront.net/v1/odooCharts.env.js"></script>
+    </t>
+</template>

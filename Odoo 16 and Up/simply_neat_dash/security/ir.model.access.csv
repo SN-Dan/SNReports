@@ -1,0 +1,16 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_crm.lead.velocity,access.crm.lead.velocity,model_crm_lead_velocity,base.group_user,1,1,1,1
+access_sn.dashboard,access.sn.dashboard,model_sn_dashboard,base.group_user,1,1,1,1
+access_sn.widget,access.sn.widget,model_sn_widget,base.group_user,1,1,1,1
+access_sn.user.settings,access.sn.user.settings,model_sn_user_settings,base.group_user,1,1,1,1
+access_sn.custom.dataset,access.sn.custom.dataset,model_sn_custom_dataset,base.group_erp_manager,1,1,1,1
+access_sn.access.right,access.sn.access.right,model_sn_access_right,base.group_erp_manager,1,1,1,1
+access_sn.custom.dataset_user,access.sn.custom.dataset.user,model_sn_custom_dataset,base.group_user,1,0,0,0
+access_sn.access.right_user,access.sn.access.right.user,model_sn_access_right,base.group_user,1,0,0,0
+access_sn.dashboard.user.access,access.sn.dashboard.user.access,model_sn_dashboard_user_access,base.group_user,1,1,1,1
+access_sn.dashboard.group.access,access.sn.dashboard.group.access,model_sn_dashboard_group_access,base.group_user,1,1,1,1
+access_sn.auth,access.sn.auth,model_sn_auth,base.group_user,1,1,1,1
+access_sn.reports.security,access.sn.reports.security,model_sn_reports_security,base.group_user,1,1,1,0
+access_sn.hs.code,access.sn.hs.code,model_sn_hs_code,base.group_erp_manager,1,1,1,1
+access_sn.cache,access.sn.cache,model_sn_cache,base.group_user,1,1,1,1
+access_sn.general.settings,access.sn.general.settings,model_sn_general_settings,base.group_erp_manager,1,1,1,1
