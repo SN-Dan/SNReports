@@ -21,7 +21,7 @@
     <!-- Define a new action for the web page -->
     <record id="action_open_docs" model="ir.actions.act_url">
         <field name="name">Documentation</field>
-        <field name="url">https://www.simply-neat.com/sn-reports-docs</field>
+        <field name="url">https://www.neatapps.io/docs</field>
         <field name="target">new</field>
     </record>
 
@@ -36,7 +36,7 @@
     <!-- Define a new action for the web page -->
     <record id="action_open_feedback" model="ir.actions.act_url">
         <field name="name">Feedback</field>
-        <field name="url">https://www.simply-neat.com/sn-reports-feedback</field>
+        <field name="url">https://www.neatapps.io/contactus</field>
         <field name="target">new</field>
     </record>
 

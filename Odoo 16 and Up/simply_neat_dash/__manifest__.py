@@ -4,7 +4,7 @@
     'author': 'Simply NEAT',
     'category': 'Productivity',
     'summary': """ The best charts for Odoo """,
-    'website': 'http://www.simply-neat.com',
+    'website': 'http://www.neatapps.io',
     'license': 'OPL-1',
     'description': """ Simply put the best reports dashboard in Odoo! """,
     'version': '1.0',
